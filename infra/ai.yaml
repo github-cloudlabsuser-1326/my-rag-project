@@ -5,7 +5,6 @@ deployments:
     model:
       format: OpenAI
       name: gpt-35-turbo
-      version: "0613"
     sku:
       name: Standard
       capacity: 20
