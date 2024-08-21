@@ -119,7 +119,7 @@ jobs:
       - name: Login to Azure CLI
         uses: azure/login@v2
         with:
-          creds: ${{ secrets.AZURE_CREDENTIALS }}           
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: AI-Based prompt evaluation
         env: 
